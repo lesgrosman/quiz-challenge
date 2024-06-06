@@ -9,3 +9,5 @@ export enum QuestionDifficulty {
   MEDIUM = "medium",
   HARD = "hard",
 }
+
+export const apiResultsUrl = new URL("results", import.meta.env.VITE_API_URL);
